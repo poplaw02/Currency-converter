@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Document</title>
+</head>
+
+<body>
+	<form class="js-form">
+		<fieldset>
+			<legend>Kalkulator Walut</legend>
+			<p>
+				<label>Kwota
+					<input type="number" autofocus min="1" step="any" required>
+
+				</label>
+			</p>
+			<p>
+				<label class="js-waluta1">Z waluty
+
+					<select name="currency" id="currency-select">
+						<option value="">wybierz walutę</option>
+						<option value="dolar">Dolar</option>
+						<option value="zloty">Złoty</option>
+						<option value="funt">Funt</option>
+						<option value="euro">Euro</option>
+						<option value="frank">Frank Szwajcarski</option>
+					</select>
+				</label>
+			</p>
+			<p>
+				<label class="js-waluta2">Na walutę
+
+					<select name="currency" id="currency-select">
+						<option value="">wybierz walutę</option>
+						<option value="dolar">Dolar</option>
+						<option value="zloty">Złoty</option>
+						<option value="funt">Funt</option>
+						<option value="euro">Euro</option>
+						<option value="frank">Frank Szwajcarski</option>
+					</select>
+				</label>
+			</p>
+			<p>
+				<button type="reset">Wyczyść</button>
+				<button type="submit">Przelicz</button>
+			</p>
+		</fieldset>
+	</form>
+	<p>wynik:<strong class="js-wynik"></strong></p>
+</body>
+
+</html>
