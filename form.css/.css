@@ -6,3 +6,15 @@ html {
     box-sizing: inherit;
 }
 
+.flex{
+    border: 10 px solid black;
+    width: 500 px;
+    display: flex
+}
+
+.flex__item{
+    padding: 20 px;
+    background: teal;
+    color: white;
+    margin:10 px
+}
